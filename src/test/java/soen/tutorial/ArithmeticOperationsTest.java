@@ -17,10 +17,9 @@ public class ArithmeticOperationsTest {
 		assertEquals(expected, actual);
 
 	}
-    @Test
+
     public void testSub()
     {
-
         ArithmeticOperations operations = new ArithmeticOperations();
         Integer actual = operations.addOrSub(6, 2);
         Integer expected = 4;
